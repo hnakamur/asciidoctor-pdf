@@ -70,6 +70,20 @@ class PdfRenderer < ::Prawn::Document
       bold_italic: (font_path 'liberation_mono-bold_italic.ttf')
     }
 
+    register_font :'VL PGothic' => {
+      normal: (font_path 'VL-PGothic-Regular.ttf'),
+      bold: (font_path 'VL-PGothic-Regular.ttf'),
+      italic: (font_path 'VL-PGothic-Regular.ttf'),
+      bold_italic: (font_path 'VL-PGothic-Regular.ttf')
+    }
+
+    register_font :'VL Gothic' => {
+      normal: (font_path 'VL-Gothic-Regular.ttf'),
+      bold: (font_path 'VL-Gothic-Regular.ttf'),
+      italic: (font_path 'VL-Gothic-Regular.ttf'),
+      bold_italic: (font_path 'VL-Gothic-Regular.ttf')
+    }
+
     #register_font FontAwesome: {
     #  normal: (font_path 'fontawesome-webfont.ttf')
     #}
